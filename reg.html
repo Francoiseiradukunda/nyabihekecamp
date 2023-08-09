@@ -5,33 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="reg.css">
+    
 </head>
 <body>
     <marquee behavior="alternate" direction="right">
-        Online Register form.
+        Online login form.
     </marquee>
+    <form action="">
     <div class="form-container">
         <div class="fields-container">
             <div class="label-container">
             <label for="">FirstName</label>
-            <input type="text" required>
+            <input type="text" id="fname" required>
 
             <label for="">LastName</label>
-            <input type="text" required>
+            <input type="text" id="lname" required>
 
             <label for="">UserName</label>
-            <input type="text" required>
+            <input type="text" id="username" required>
 
             <label for="">Email</label>
-            <input type="email" required>
+            <input type="email" id="email" required>
 
             <label for="">Password</label>
-            <input type="password" required>
+            <input type="password" id="password" required>
 
             <button type="submit">Register</button>
         </div>
         </div>
         <h4 class="dont">If you have an account: &nbsp;&nbsp;<a href="login.html">Click here</a></h4>
     </div>
+</form>
+<script src="./reg.js"></script>
 </body>
 </html>
