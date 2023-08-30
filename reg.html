@@ -11,27 +11,32 @@
         Online Register form.
     </marquee>
     <div class="form-container">
+
         <div class="fields-container">
             <div class="label-container">
+           <form action="">
+            
             <label for="">FirstName</label>
-            <input type="text" required>
+            <input type="text" required id="firstName">
 
             <label for="">LastName</label>
-            <input type="text" required>
+            <input type="text" required id="lname">
 
             <label for="">UserName</label>
-            <input type="text" required>
+            <input type="text" required id="username">
 
             <label for="">Email</label>
-            <input type="email" required>
+            <input type="email" required id="email">
 
             <label for="">Password</label>
-            <input type="password" required>
+            <input type="password" required id="password">
 
-            <button type="submit">Register</button>
+            <button id="btn" type="submit">Register</button>
+        </form>
         </div>
         </div>
         <h4 class="dont">If you have an account: &nbsp;&nbsp;<a href="login.html">Click here</a></h4>
     </div>
+    <script src="reg.js"></script>
 </body>
 </html>

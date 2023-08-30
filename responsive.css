@@ -1,5 +1,5 @@
 @media(max-width:756px) {
-   .find-container{ 
+   .heading-container{ 
 display: flex;
 flex-direction: column;
 background-color: red;
