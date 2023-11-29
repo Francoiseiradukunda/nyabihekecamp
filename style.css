@@ -91,11 +91,16 @@ font-size: 18px;
 align-items: center;
 }
 .ifoto img{
-    height: 500px;
+    /* height: 700px;
     width: 500px;
-    padding: 2rem;
+    padding: 1rem; */
     border-radius: 50%;
+   
+    &:hover{
+        transition: rotate(-5deg); 
+    }
 }
+
 .reg{
     background-color: rgb(206, 102, 102);
     padding: 1rem 3rem;
@@ -139,9 +144,8 @@ marquee{
     gap: 1rem;
   
 }
-.ifoto{
-border-radius: 50%;
-}
+
+
 .pic1{
     display: flex;
     padding: 2rem;
